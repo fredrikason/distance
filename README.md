@@ -1,9 +1,11 @@
-Description: This is the solution for Problem 2 - Distance (see below for complete results)
+# Description
+This is the solution for Problem 2 - Distance (see below for complete results)
 The solution consists of two domain objects; Point and PointInputStream (and corresponding junit test cases) 
 and one java application "numbers.distance.PointCalculator" (see below for how to run the main java application)
 The source code is an eclipse maven project which can be built using maven (there is a single dependency on junit 4.8.2) 
 
-Usage: [-f] <file> [-n] <number of points> [-m] <mode: c/f (closest/farthest)> [-x] <x number ref point> [-y] <y number ref point> [-h]
+# Usage 
+[-f] <file> [-n] <number of points> [-m] <mode: c/f (closest/farthest)> [-x] <x number ref point> [-y] <y number ref point> [-h]
 
 	file: file path to the points binary file
 	number of points: this is the number of points to calculate, e.g. 10 or 20 etc.
@@ -11,11 +13,11 @@ Usage: [-f] <file> [-n] <number of points> [-m] <mode: c/f (closest/farthest)> [
 	x number of point: this is the x coordinate for the reference point
 	y number of point: this is the y coordinate for the reference point
 
-Examples: -f "C:/temp/Problem 2 - Distance/points" -n 10 -m c -x -200 -y 300
-		  -f "C:/temp/Problem 2 - Distance/points" -n 20 -m f -x 1000 -y 25
+# Examples 
+-f "C:/temp/Problem 2 - Distance/points" -n 10 -m c -x -200 -y 300
+-f "C:/temp/Problem 2 - Distance/points" -n 20 -m f -x 1000 -y 25
 
-Results:
-
+# Results
 Calculating the 10 CLOSEST points to Point (-200, 300)
 Point (-198, 292) with distance d=8.246211251235321
 Point (-194, 307) with distance d=9.219544457292887
